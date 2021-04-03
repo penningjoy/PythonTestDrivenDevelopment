@@ -1,4 +1,4 @@
-from testing_project.summation import summation
+from testing_project.summation import addition
 
 def test_summation():
-    assert summation(4,9) == 13
+    assert addition.additioner(4,9).summation() == 13
